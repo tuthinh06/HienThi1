@@ -1,0 +1,65 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+.avatar {
+    width: 100%;
+    border-radius: 50%;
+    max-width: 180px;
+    display: block;
+    margin: 10px auto;
+}
+
+.list-group-item.active {
+    background-color: #00aaff;
+    border-color: #00aaff;
+}
+
+.blog-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card {
+    border: none;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.btn-more {
+    background-color: #00aaff;
+    color: white;
+    border: none;
+}
+
+.btn-more:hover {
+    background-color: #0088cc;
+}
+
+.right-post img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.right-post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.right-post small {
+    color: gray;
+}
